@@ -17,8 +17,8 @@
 ### Connect via SSH
 On our local machine locate .pem file and run the following command.
 ```bash
-chmod 400 your-key.pem
-ssh -i "your-key.pem" ubuntu@<EC2_Public_IP>
+chmod 400 aws-devops-intern-assignment.pem
+ssh -i "aws-devops-intern-assignment.pem" ubuntu@ec2-35-154-80-250.ap-south-1.compute.amazonaws.com
 ```
 
 ## Task 2: Linux Basics
